@@ -3,6 +3,8 @@ import pandas as pd
 
 # Create new csv files containing only the annotations needed for training, validation and testing
 # based on the classes in mapping
+#
+# It is assumed that all images are in one directory called 'images'
 
 mapping = {'/m/0mkg': 0, '/m/01xqw': 1, '/m/05r5c': 2, '/m/06ncr': 3, '/m/07gql': 4, '/m/07y_7': 5}
 path = 'Dataset/boxes/'     # path to current csv files
